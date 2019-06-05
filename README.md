@@ -4,6 +4,8 @@
 
 支持py2和py3，基于[PyPDF2](https://github.com/mstamy2/PyPDF2)
 
+运行：python entry.py example.pdf 40
+
 转换效果前后对比：[example.pdf](example.pdf)，[example_croped.pdf](example_croped.pdf)
 
 # Todo

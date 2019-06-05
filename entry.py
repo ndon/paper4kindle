@@ -7,11 +7,10 @@ from copy import copy
 import sys
 
 file_name = sys.argv[1]
+margin = int(sys.argv[2])
 
 output = PdfFileWriter()
 input1 = PdfFileReader(open(file_name, "rb"))
-# 需要裁剪的白边
-margin = 40
 # 阅读顺序应该是
 # 1 3
 # 2 4
